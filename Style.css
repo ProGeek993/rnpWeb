@@ -1,0 +1,81 @@
+*
+{
+ margin: 0px;
+}
+/* Fondo - Patron */
+body
+{
+    height: 6000px;
+    background-image: url(assets/PATRON.png), linear-gradient(to bottom,#bb7745,#4e777f,#352d5f,#873070);
+    background-blend-mode: overlay;
+}
+/* Header - Logo */
+#Header
+{
+    background-image: url(assets/HEADER.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+    height: 100vh;
+}
+#Logo
+{
+    margin: auto auto;
+    position: absolute;
+    width: 25%;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+/* Section 1 - (Video & Sticker)*/
+#Section1
+{
+    background-image: url(assets/BLOQUE_ORG.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 900px;
+    width: 1200px;
+    margin: auto;
+    align-items: center;
+}
+#VideoTube
+{
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    top: -12%;
+    left: -4%;
+}
+#VideoTube2
+{
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    top: -12%;
+}
+#Section2
+{
+    background-image: url(assets/BLOQUE_ROJ.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 1650px;
+    width: 1200px;
+    margin: auto;
+}
+#Paper
+{
+    display: block;
+    width: 88%;
+    margin: 0 auto;
+}
+.Pj
+{
+    display: block;
+    width: 30%;
+    margin: 0 auto;
+    float: right;
+    margin-left: -5%;
+}
