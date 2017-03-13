@@ -1,0 +1,178 @@
+/* All Elements */
+*{
+    margin: 0 auto;
+}
+
+/* PC Size */
+@media only screen and (min-width: 1024px){
+    
+    /* General */
+    body{
+        height: 3000px;
+        width: auto;
+        background-color: #196eba;
+    }
+    .Container{
+        width: 960px;
+        height: 100vh;
+        position: relative;
+    }
+    /* Elements */
+    #Header{
+        width: 100%;
+        height: 100vh;
+        background-color: #7f84ff;
+    }
+        #Logo{
+            background-color: brown;
+            width: 400px;
+            height: 400px;
+            margin: auto;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+        }
+    #VideoBlock{
+        background-color: #ffa54b;
+    }
+        #Video{
+            width: 95%;
+            height: 70%;
+            background-color: brown;
+            margin: -5% auto;
+        }
+        #Sticker{
+            width: 90%;
+            height: 20%;
+            background-color: brown;
+            margin: 10% auto;
+        }
+    #IntroBlock{
+        background-color: #a945e8;
+    }
+        #Paper{
+            width: 90%;
+            height: 40%;
+            position: absolute;
+            margin: 2% 5%;
+            background-color: brown;
+        } 
+        #ids{
+            width: 90%;
+            height: 40%;
+            position: absolute;
+            background-color: #2aa592;
+            margin-left: 5%;
+            margin-top: 50%;
+            }
+    
+    #Separator{
+        height: 30vh;
+        background-color: #93dab0;
+    }
+    #Features{
+        background-color: #d593da;
+    }
+    #BossPanel{
+        width: 100%;
+        height: 80vh;
+        background-color: #220f71;
+    }
+    #Footer{
+        width: 100%;
+        height: 20vh;
+        background-color: #551265;
+    }
+}
+
+/* Tablet Size */
+@media only screen and (max-width: 1024px){
+    
+    /* General */
+    body{
+        height: 3000px;
+        width: auto;
+        background-color: #19ba32;
+    }
+    .Container{
+        width: 85%;
+        height: 100vh;
+    }
+    
+    /* Specific */
+    #Header{
+        width: 100%;
+        height: 100vh;
+        background-color: #7f84ff;
+    }
+    #VideoBlock{
+        background-color: #ffa54b;
+    }
+    #IntroBlock{
+        background-color: #a945e8;
+    }
+    #Separator{
+        height: 30vh;
+        background-color: #93dab0;
+    }
+    #Features{
+        background-color: #d593da;
+    }
+    #BossPanel{
+        width: 100%;
+        height: 80vh;
+        background-color: #220f71;
+    }
+    #Footer{
+        width: 100%;
+        height: 20vh;
+        background-color: #551265;
+    }
+}
+
+/* Phone Size */
+@media only screen and (max-width: 480px){
+    
+    /* General */
+    body{
+        height: 3000px;
+        width: auto;
+        background-color: #ba2c19;
+    }
+    .Container{
+        width: 95%;
+        height: 100vh;
+    }
+    
+    /* Specific */
+    #Header{
+        width: 100%;
+        height: 100vh;
+        background-color: #7f84ff;
+    }
+    #VideoBlock{
+        background-color: #ffa54b;
+    }
+    #IntroBlock{
+        background-color: #a945e8;
+    }
+    #Separator{
+        height: 30vh;
+        background-color: #93dab0;
+    }
+    #Features{
+        background-color: #d593da;
+    }
+    #BossPanel{
+        width: 100%;
+        height: 80vh;
+        background-color: #220f71;
+    }
+    #Footer{
+        width: 100%;
+        height: 20vh;
+        background-color: #551265;
+    }
+}
